@@ -25,4 +25,4 @@ Genera miniaturas/vistas previas, sube todo al bucket y actualiza `src/data/foto
 git add src/data/fotos.json && git commit -m "Fotos pedido #1" && git push
 ```
 Netlify: build `npm run build`, carpeta `dist` (Astro se detecta solo).
-Para otro pedido, cambia `EVENTO_SLUG` y el título en `src/pages/index.astro`.
+Esta página vive en `/p/esp-2026-1` (archivo `src/pages/p/esp-2026-1.astro`). Para otro pedido, copia ese archivo con otro nombre (ej. `p/otro-pedido.astro`), cambia el título y `EVENTO_SLUG`.
