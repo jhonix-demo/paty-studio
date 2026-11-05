@@ -1,0 +1,16 @@
+{
+  "name": "galeria-fotos",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev --host",
+    "build": "astro build",
+    "preview": "astro preview",
+    "procesar": "node --env-file=.env scripts/procesar.mjs"
+  },
+  "dependencies": {
+    "astro": "^5",
+    "@aws-sdk/client-s3": "^3",
+    "sharp": "^0.33"
+  }
+}
