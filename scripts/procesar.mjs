@@ -16,7 +16,7 @@ const s3 = E.R2_BUCKET && new S3Client({
 });
 if (!s3) console.log('⚠ Sin credenciales R2: solo se genera fotos.json (no se sube nada).');
 
-const slug = (s) => s.normalize('NFD').replace(/\p{M}/g, '').replace(/[^\w.-]+/g, '-').toLowerCase();
+const slug = (s) => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/[^\w.-]+/g, '-').toLowerCase();
 const put = (Key, Body, ContentType, extra = {}) =>
   s3 && s3.send(new PutObjectCommand({ Bucket: E.R2_BUCKET, Key, Body, ContentType,
     CacheControl: 'public, max-age=31536000, immutable', ...extra }));
