@@ -1,1 +1,519 @@
-{"base":"","grupales":[],"personas":[]}
+{
+    "base": "https://pub-adaba2aed4c74cf9820f559edc78268e.r2.dev",
+    "grupales": [
+        {
+            "t": "escuela-precursor-2026-1/grupales/t/normal.webp",
+            "p": "escuela-precursor-2026-1/grupales/p/normal.webp",
+            "o": "escuela-precursor-2026-1/grupales/o/normal.jpg",
+            "w": 1800,
+            "h": 1350
+        },
+        {
+            "t": "escuela-precursor-2026-1/grupales/t/relajo.webp",
+            "p": "escuela-precursor-2026-1/grupales/p/relajo.webp",
+            "o": "escuela-precursor-2026-1/grupales/o/relajo.jpg",
+            "w": 1800,
+            "h": 1200
+        }
+    ],
+    "personas": [
+        {
+            "nombre": "Adela de Chel",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/adela-de-chel/t/img_5051.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/adela-de-chel/p/img_5051.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/adela-de-chel/o/img_5051.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/adela-de-chel/t/img_5106.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/adela-de-chel/p/img_5106.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/adela-de-chel/o/img_5106.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Alejandra de Canche",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/alejandra-de-canche/t/img_5056.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/alejandra-de-canche/p/img_5056.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/alejandra-de-canche/o/img_5056.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/alejandra-de-canche/t/img_5110.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/alejandra-de-canche/p/img_5110.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/alejandra-de-canche/o/img_5110.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Ana Torres",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/ana-torres/t/img_5071.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/ana-torres/p/img_5071.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/ana-torres/o/img_5071.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/ana-torres/t/img_5124.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/ana-torres/p/img_5124.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/ana-torres/o/img_5124.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Axel y Vida",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/axel-y-vida/t/img_5088.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/axel-y-vida/p/img_5088.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/axel-y-vida/o/img_5088.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/axel-y-vida/t/img_5154.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/axel-y-vida/p/img_5154.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/axel-y-vida/o/img_5154.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Crescencia Couoh",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/crescencia-couoh/t/img_5047.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/crescencia-couoh/p/img_5047.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/crescencia-couoh/o/img_5047.jpg.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/crescencia-couoh/t/img_5101.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/crescencia-couoh/p/img_5101.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/crescencia-couoh/o/img_5101.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/crescencia-couoh/t/img_5102.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/crescencia-couoh/p/img_5102.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/crescencia-couoh/o/img_5102.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/raquel-chel/t/img_5152.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/raquel-chel/p/img_5152.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/raquel-chel/o/img_5152.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Daniel y Dady",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/daniel-y-dady/t/img_5078.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/daniel-y-dady/p/img_5078.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/daniel-y-dady/o/img_5078.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/daniel-y-dady/t/img_5142.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/daniel-y-dady/p/img_5142.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/daniel-y-dady/o/img_5142.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Diana Olivera",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/diana-olivera/t/img_5069.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/diana-olivera/p/img_5069.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/diana-olivera/o/img_5069.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/diana-olivera/t/img_5133.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/diana-olivera/p/img_5133.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/diana-olivera/o/img_5133.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Estefani Cetzal",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/estefani-cetzal/t/img_5086.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/estefani-cetzal/p/img_5086.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/estefani-cetzal/o/img_5086.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/estefani-cetzal/t/img_5136.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/estefani-cetzal/p/img_5136.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/estefani-cetzal/o/img_5136.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Gerardo y Lucelly",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/t/img_5096.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/p/img_5096.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/o/img_5096.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1286
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/t/img_5143.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/p/img_5143.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/o/img_5143.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/t/img_5146.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/p/img_5146.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/o/img_5146.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/t/img_5147.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/p/img_5147.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/gerardo-y-lucelly/o/img_5147.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Hilaria Frías",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/hilaria-fri-as/t/img_5064.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/hilaria-fri-as/p/img_5064.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/hilaria-fri-as/o/img_5064.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/hilaria-fri-as/t/img_5116.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/hilaria-fri-as/p/img_5116.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/hilaria-fri-as/o/img_5116.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Iliana Chuc",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/iliana-chuc/t/img_5054.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/iliana-chuc/p/img_5054.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/iliana-chuc/o/img_5054.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/iliana-chuc/t/img_5109.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/iliana-chuc/p/img_5109.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/iliana-chuc/o/img_5109.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Jehú Chel",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/jehu-chel/t/img_5083.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/jehu-chel/p/img_5083.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/jehu-chel/o/img_5083.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/jehu-chel/t/img_5130.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/jehu-chel/p/img_5130.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/jehu-chel/o/img_5130.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Josias Yah",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/josias-yah/t/img_5084.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/josias-yah/p/img_5084.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/josias-yah/o/img_5084.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/josias-yah/t/img_5132.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/josias-yah/p/img_5132.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/josias-yah/o/img_5132.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Karina Sarabia",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/karina-sarabia/t/img_5074.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/karina-sarabia/p/img_5074.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/karina-sarabia/o/img_5074.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/karina-sarabia/t/img_5126.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/karina-sarabia/p/img_5126.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/karina-sarabia/o/img_5126.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Keren Chi",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/keren-chi/t/img_5057.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/keren-chi/p/img_5057.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/keren-chi/o/img_5057.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/keren-chi/t/img_5112.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/keren-chi/p/img_5112.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/keren-chi/o/img_5112.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Margarita y Melani",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/margarita-y-melani/t/img_5065.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/margarita-y-melani/p/img_5065.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/margarita-y-melani/o/img_5065.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/margarita-y-melani/t/img_5120.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/margarita-y-melani/p/img_5120.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/margarita-y-melani/o/img_5120.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/margarita-y-melani/t/img_5149.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/margarita-y-melani/p/img_5149.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/margarita-y-melani/o/img_5149.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Metzi Cisneros",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/metzi-cisneros/t/img_5067.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/metzi-cisneros/p/img_5067.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/metzi-cisneros/o/img_5067.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/metzi-cisneros/t/img_5122.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/metzi-cisneros/p/img_5122.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/metzi-cisneros/o/img_5122.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Misael Kooch",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/misael-kooch/t/img_5093.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/misael-kooch/p/img_5093.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/misael-kooch/o/img_5093.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/misael-kooch/t/img_5140.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/misael-kooch/p/img_5140.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/misael-kooch/o/img_5140.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Nelly Reyes",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/nelly-reyes/t/img_5062.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/nelly-reyes/p/img_5062.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/nelly-reyes/o/img_5062.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/nelly-reyes/t/img_5118.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/nelly-reyes/p/img_5118.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/nelly-reyes/o/img_5118.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Nestor y Lulú",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/axel-y-vida/t/img_5088.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/axel-y-vida/p/img_5088.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/axel-y-vida/o/img_5088.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/nestor-y-lulu-/t/img_5155.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/nestor-y-lulu-/p/img_5155.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/nestor-y-lulu-/o/img_5155.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Olga Couoh",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/olga-couoh/t/img_5050.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/olga-couoh/p/img_5050.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/olga-couoh/o/img_5050.jpg.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/olga-couoh/t/img_5105.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/olga-couoh/p/img_5105.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/olga-couoh/o/img_5105.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Raquel Chel",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/raquel-chel/t/img_5079.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/raquel-chel/p/img_5079.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/raquel-chel/o/img_5079.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/raquel-chel/t/img_5128.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/raquel-chel/p/img_5128.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/raquel-chel/o/img_5128.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/raquel-chel/t/img_5152.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/raquel-chel/p/img_5152.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/raquel-chel/o/img_5152.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Uriel y Diana",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/uriel-y-diana/t/img_5076.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/uriel-y-diana/p/img_5076.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/uriel-y-diana/o/img_5076.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/uriel-y-diana/t/img_5138.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/uriel-y-diana/p/img_5138.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/uriel-y-diana/o/img_5138.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Yaneli Ku",
+            "fotos": [
+                {
+                    "t": "escuela-precursor-2026-1/individuales/yaneli-ku/t/img_5060.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/yaneli-ku/p/img_5060.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/yaneli-ku/o/img_5060.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "escuela-precursor-2026-1/individuales/yaneli-ku/t/img_5114.jpg.webp",
+                    "p": "escuela-precursor-2026-1/individuales/yaneli-ku/p/img_5114.jpg.webp",
+                    "o": "escuela-precursor-2026-1/individuales/yaneli-ku/o/img_5114.jpg.jpeg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        }
+    ]
+}
