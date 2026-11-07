@@ -20,6 +20,8 @@ npm run procesar
 ```
 Genera miniaturas/vistas previas, sube todo al bucket y actualiza `src/data/fotos.json`.
 
+> **Nota:** Si ya se habían subido fotos individuales antes del fix de acentos en el buscador y generador de slugs, borra esos objetos del bucket y vuelve a correr `npm run procesar`, porque cambian las rutas de las carpetas con acentos.
+
 ## 3. Publicar
 ```
 git add src/data/fotos.json && git commit -m "Fotos pedido #1" && git push
