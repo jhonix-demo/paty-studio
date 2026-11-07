@@ -2,6 +2,13 @@
     "base": "https://pub-adaba2aed4c74cf9820f559edc78268e.r2.dev",
     "grupales": [
         {
+            "t": "escuela-precursor-2026-1/grupales/t/12x8.webp",
+            "p": "escuela-precursor-2026-1/grupales/p/12x8.webp",
+            "o": "escuela-precursor-2026-1/grupales/o/12x8.jpg",
+            "w": 1800,
+            "h": 1200
+        },
+        {
             "t": "escuela-precursor-2026-1/grupales/t/normal.webp",
             "p": "escuela-precursor-2026-1/grupales/p/normal.webp",
             "o": "escuela-precursor-2026-1/grupales/o/normal.jpg",
