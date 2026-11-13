@@ -1,30 +1,31 @@
-# Galería de entrega de fotos
+# Galería de entrega de fotos (varios eventos)
 
-## 1. Cloudflare R2 (una sola vez)
-1. Cuenta en Cloudflare → R2 → crear bucket (ej. `fotos-tia`).
-2. Hacer público el bucket: *Settings → Public access* (r2.dev) o, mejor, conectar un dominio propio.
-3. *Manage R2 API Tokens* → crear token con permiso de lectura/escritura → copiar a `.env` (ver `.env.example`).
+Cada evento tiene su propia página: `/p/<slug>` (ej. `/p/esp-2026-1`).
 
-## 2. Procesar y subir fotos (en la PC donde están las fotos)
-```
-fotos-originales/
-  grupales/            IMG_001.jpg ...
-  individuales/
-    Josías/            ...
-    Uriel y Diana/     ...
-```
-```
-npm install
-cp .env.example .env   # y rellénalo
-npm run procesar
-```
-Genera miniaturas/vistas previas, sube todo al bucket y actualiza `src/data/fotos.json`.
+## Configuración única (Cloudflare R2)
+1. Crea un bucket en R2 y actívale la URL pública (o un dominio propio).
+2. *Manage R2 API Tokens* → token con lectura/escritura.
+3. Crea `.env` (ver `.env.example`) en la PC donde están las fotos.
 
-> **Nota:** Si ya se habían subido fotos individuales antes del fix de acentos en el buscador y generador de slugs, borra esos objetos del bucket y vuelve a correr `npm run procesar`, porque cambian las rutas de las carpetas con acentos.
+## Agregar un evento nuevo
+1. Edita `src/data/eventos.json` y agrega `{ "slug", "titulo", "subtitulo", "fotografa" }`.
+2. Ordena las fotos en `fotos-originales/<slug>/`:
+   ```
+   grupales/             IMG_001.jpg ...
+   individuales/
+     Josías/
+     Uriel y Diana/
+   ```
+3. `npm install` (solo la primera vez) y `npm run procesar -- <slug>`
+   Genera vistas previas, sube todo al bucket y crea `src/data/fotos/<slug>.json`.
+4. Commit y push. Netlify publica: build `npm run build`, carpeta `dist`.
 
-## 3. Publicar
-```
-git add src/data/fotos.json && git commit -m "Fotos pedido #1" && git push
-```
-Netlify: build `npm run build`, carpeta `dist` (Astro se detecta solo).
-Esta página vive en `/p/esp-2026-1` (archivo `src/pages/p/esp-2026-1.astro`). Para otro pedido, copia ese archivo con otro nombre (ej. `p/otro-pedido.astro`), cambia el título y `EVENTO_SLUG`.
+## Agregar una sola foto después
+`node --env-file=.env scripts/agregar.mjs <slug> "ruta/foto.jpg" grupales`
+`node --env-file=.env scripts/agregar.mjs <slug> "ruta/foto.jpg" "Uriel y Diana"`
+Sube la foto e imprime el JSON para pegarlo en `src/data/fotos/<slug>.json`.
+
+## Notas
+- Los eventos de `eventos.json` sin fotos muestran la página vacía: agrégalos cuando estén listos.
+- Todas las páginas llevan `noindex` (no salen en Google), pero cualquiera con el enlace puede verlas.
+- Modo oscuro: sigue el tema del sistema y hay un botón para cambiarlo.

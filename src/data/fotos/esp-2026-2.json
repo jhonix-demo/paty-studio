@@ -1,0 +1,583 @@
+{
+    "base": "https://pub-adaba2aed4c74cf9820f559edc78268e.r2.dev",
+    "grupales": [
+        {
+            "t": "esp-2026-2/grupales/t/a-normal.webp",
+            "p": "esp-2026-2/grupales/p/a-normal.webp",
+            "o": "esp-2026-2/grupales/o/a-normal.jpg",
+            "w": 1800,
+            "h": 1350
+        },
+        {
+            "t": "esp-2026-2/grupales/t/img_5405.webp",
+            "p": "esp-2026-2/grupales/p/img_5405.webp",
+            "o": "esp-2026-2/grupales/o/img_5405.jpg",
+            "w": 1800,
+            "h": 1350
+        },
+        {
+            "t": "esp-2026-2/grupales/t/img_5406.webp",
+            "p": "esp-2026-2/grupales/p/img_5406.webp",
+            "o": "esp-2026-2/grupales/o/img_5406.jpg",
+            "w": 1800,
+            "h": 1350
+        },
+        {
+            "t": "esp-2026-2/grupales/t/img_5407.webp",
+            "p": "esp-2026-2/grupales/p/img_5407.webp",
+            "o": "esp-2026-2/grupales/o/img_5407.jpg",
+            "w": 1800,
+            "h": 1350
+        },
+        {
+            "t": "esp-2026-2/grupales/t/img_5408.webp",
+            "p": "esp-2026-2/grupales/p/img_5408.webp",
+            "o": "esp-2026-2/grupales/o/img_5408.jpg",
+            "w": 1800,
+            "h": 1350
+        },
+        {
+            "t": "esp-2026-2/grupales/t/img_5409.webp",
+            "p": "esp-2026-2/grupales/p/img_5409.webp",
+            "o": "esp-2026-2/grupales/o/img_5409.jpg",
+            "w": 1800,
+            "h": 1350
+        },
+        {
+            "t": "esp-2026-2/grupales/t/img_5410.webp",
+            "p": "esp-2026-2/grupales/p/img_5410.webp",
+            "o": "esp-2026-2/grupales/o/img_5410.jpg",
+            "w": 1800,
+            "h": 1350
+        }
+    ],
+    "personas": [
+        {
+            "nombre": "Andrés Matú",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/andres-matu/t/img_5451.webp",
+                    "p": "esp-2026-2/individuales/andres-matu/p/img_5451.webp",
+                    "o": "esp-2026-2/individuales/andres-matu/o/img_5451.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/andres-matu/t/img_5475.webp",
+                    "p": "esp-2026-2/individuales/andres-matu/p/img_5475.webp",
+                    "o": "esp-2026-2/individuales/andres-matu/o/img_5475.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Claudia de Pacheco",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/claudia-de-pacheco/t/img_5458.webp",
+                    "p": "esp-2026-2/individuales/claudia-de-pacheco/p/img_5458.webp",
+                    "o": "esp-2026-2/individuales/claudia-de-pacheco/o/img_5458.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/claudia-de-pacheco/t/img_5494.webp",
+                    "p": "esp-2026-2/individuales/claudia-de-pacheco/p/img_5494.webp",
+                    "o": "esp-2026-2/individuales/claudia-de-pacheco/o/img_5494.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Claudina Martin",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/claudina-martin/t/img_5465.webp",
+                    "p": "esp-2026-2/individuales/claudina-martin/p/img_5465.webp",
+                    "o": "esp-2026-2/individuales/claudina-martin/o/img_5465.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/claudina-martin/t/img_5505.webp",
+                    "p": "esp-2026-2/individuales/claudina-martin/p/img_5505.webp",
+                    "o": "esp-2026-2/individuales/claudina-martin/o/img_5505.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Dulce y Nicolas",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/dulce-y-nicolas/t/img_5417.webp",
+                    "p": "esp-2026-2/individuales/dulce-y-nicolas/p/img_5417.webp",
+                    "o": "esp-2026-2/individuales/dulce-y-nicolas/o/img_5417.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/dulce-y-nicolas/t/img_5515.webp",
+                    "p": "esp-2026-2/individuales/dulce-y-nicolas/p/img_5515.webp",
+                    "o": "esp-2026-2/individuales/dulce-y-nicolas/o/img_5515.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Edward, Claudia y Eduard",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/edward-claudia-y-eduard/t/img_5429.webp",
+                    "p": "esp-2026-2/individuales/edward-claudia-y-eduard/p/img_5429.webp",
+                    "o": "esp-2026-2/individuales/edward-claudia-y-eduard/o/img_5429.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/edward-claudia-y-eduard/t/img_5523.webp",
+                    "p": "esp-2026-2/individuales/edward-claudia-y-eduard/p/img_5523.webp",
+                    "o": "esp-2026-2/individuales/edward-claudia-y-eduard/o/img_5523.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Erica y Carlos",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/erica-y-carlos/t/img_5526.webp",
+                    "p": "esp-2026-2/individuales/erica-y-carlos/p/img_5526.webp",
+                    "o": "esp-2026-2/individuales/erica-y-carlos/o/img_5526.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/vida-y-axel/t/img_5470.webp",
+                    "p": "esp-2026-2/individuales/vida-y-axel/p/img_5470.webp",
+                    "o": "esp-2026-2/individuales/vida-y-axel/o/img_5470.jpg",
+                    "w": 1800,
+                    "h": 1286
+                }
+            ]
+        },
+        {
+            "nombre": "Ester Can",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/ester-can/t/img_5439.webp",
+                    "p": "esp-2026-2/individuales/ester-can/p/img_5439.webp",
+                    "o": "esp-2026-2/individuales/ester-can/o/img_5439.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/ester-can/t/img_5498.webp",
+                    "p": "esp-2026-2/individuales/ester-can/p/img_5498.webp",
+                    "o": "esp-2026-2/individuales/ester-can/o/img_5498.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Floricely Loeza",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/floricely-loeza/t/img_5441.webp",
+                    "p": "esp-2026-2/individuales/floricely-loeza/p/img_5441.webp",
+                    "o": "esp-2026-2/individuales/floricely-loeza/o/img_5441.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/floricely-loeza/t/img_5493.webp",
+                    "p": "esp-2026-2/individuales/floricely-loeza/p/img_5493.webp",
+                    "o": "esp-2026-2/individuales/floricely-loeza/o/img_5493.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Gabriela y Oscar",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/gabriela-y-oscar/t/img_5419.webp",
+                    "p": "esp-2026-2/individuales/gabriela-y-oscar/p/img_5419.webp",
+                    "o": "esp-2026-2/individuales/gabriela-y-oscar/o/img_5419.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/gabriela-y-oscar/t/img_5516.webp",
+                    "p": "esp-2026-2/individuales/gabriela-y-oscar/p/img_5516.webp",
+                    "o": "esp-2026-2/individuales/gabriela-y-oscar/o/img_5516.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Gerardo Vásquez",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/gerardo-vasquez/t/img_5455.webp",
+                    "p": "esp-2026-2/individuales/gerardo-vasquez/p/img_5455.webp",
+                    "o": "esp-2026-2/individuales/gerardo-vasquez/o/img_5455.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/gerardo-vasquez/t/img_5477.webp",
+                    "p": "esp-2026-2/individuales/gerardo-vasquez/p/img_5477.webp",
+                    "o": "esp-2026-2/individuales/gerardo-vasquez/o/img_5477.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Gladis Durán",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/gladis-duran/t/img_5454.webp",
+                    "p": "esp-2026-2/individuales/gladis-duran/p/img_5454.webp",
+                    "o": "esp-2026-2/individuales/gladis-duran/o/img_5454.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/gladis-duran/t/img_5485.webp",
+                    "p": "esp-2026-2/individuales/gladis-duran/p/img_5485.webp",
+                    "o": "esp-2026-2/individuales/gladis-duran/o/img_5485.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Gloria Can",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/gloria-can/t/img_5411.webp",
+                    "p": "esp-2026-2/individuales/gloria-can/p/img_5411.webp",
+                    "o": "esp-2026-2/individuales/gloria-can/o/img_5411.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/gloria-can/t/img_5497.webp",
+                    "p": "esp-2026-2/individuales/gloria-can/p/img_5497.webp",
+                    "o": "esp-2026-2/individuales/gloria-can/o/img_5497.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Jabin Jiménez",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/jabin-jimenez/t/img_5422.webp",
+                    "p": "esp-2026-2/individuales/jabin-jimenez/p/img_5422.webp",
+                    "o": "esp-2026-2/individuales/jabin-jimenez/o/img_5422.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/jabin-jimenez/t/img_5509.webp",
+                    "p": "esp-2026-2/individuales/jabin-jimenez/p/img_5509.webp",
+                    "o": "esp-2026-2/individuales/jabin-jimenez/o/img_5509.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Jaqueline y Juan",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/jaqueline-y-juan/t/img_5521.webp",
+                    "p": "esp-2026-2/individuales/jaqueline-y-juan/p/img_5521.webp",
+                    "o": "esp-2026-2/individuales/jaqueline-y-juan/o/img_5521.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/jabin-jimenez/t/img_5422.webp",
+                    "p": "esp-2026-2/individuales/jabin-jimenez/p/img_5422.webp",
+                    "o": "esp-2026-2/individuales/jabin-jimenez/o/img_5422.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Karen Durán",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/karen-duran/t/img_5460.webp",
+                    "p": "esp-2026-2/individuales/karen-duran/p/img_5460.webp",
+                    "o": "esp-2026-2/individuales/karen-duran/o/img_5460.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/karen-duran/t/img_5490.webp",
+                    "p": "esp-2026-2/individuales/karen-duran/p/img_5490.webp",
+                    "o": "esp-2026-2/individuales/karen-duran/o/img_5490.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Karen y Andrés",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/karen-y-andres/t/img_5414.webp",
+                    "p": "esp-2026-2/individuales/karen-y-andres/p/img_5414.webp",
+                    "o": "esp-2026-2/individuales/karen-y-andres/o/img_5414.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/karen-y-andres/t/img_5520.webp",
+                    "p": "esp-2026-2/individuales/karen-y-andres/p/img_5520.webp",
+                    "o": "esp-2026-2/individuales/karen-y-andres/o/img_5520.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Loreiny Pech",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/loreiny-pech/t/img_5468.webp",
+                    "p": "esp-2026-2/individuales/loreiny-pech/p/img_5468.webp",
+                    "o": "esp-2026-2/individuales/loreiny-pech/o/img_5468.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/loreiny-pech/t/img_5503.webp",
+                    "p": "esp-2026-2/individuales/loreiny-pech/p/img_5503.webp",
+                    "o": "esp-2026-2/individuales/loreiny-pech/o/img_5503.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Maria Couoh",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/maria-couoh/t/img_5444.webp",
+                    "p": "esp-2026-2/individuales/maria-couoh/p/img_5444.webp",
+                    "o": "esp-2026-2/individuales/maria-couoh/o/img_5444.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/maria-couoh/t/img_5481.webp",
+                    "p": "esp-2026-2/individuales/maria-couoh/p/img_5481.webp",
+                    "o": "esp-2026-2/individuales/maria-couoh/o/img_5481.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Michel Govea",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/gabriela-y-oscar/t/img_5419.webp",
+                    "p": "esp-2026-2/individuales/gabriela-y-oscar/p/img_5419.webp",
+                    "o": "esp-2026-2/individuales/gabriela-y-oscar/o/img_5419.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/michel-govea/t/img_5507.webp",
+                    "p": "esp-2026-2/individuales/michel-govea/p/img_5507.webp",
+                    "o": "esp-2026-2/individuales/michel-govea/o/img_5507.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Natashy Tzab",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/natashy-tzab/t/img_5461.webp",
+                    "p": "esp-2026-2/individuales/natashy-tzab/p/img_5461.webp",
+                    "o": "esp-2026-2/individuales/natashy-tzab/o/img_5461.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/natashy-tzab/t/img_5501.webp",
+                    "p": "esp-2026-2/individuales/natashy-tzab/p/img_5501.webp",
+                    "o": "esp-2026-2/individuales/natashy-tzab/o/img_5501.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Nisbeth de May",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/nisbeth-de-may/t/img_5432.webp",
+                    "p": "esp-2026-2/individuales/nisbeth-de-may/p/img_5432.webp",
+                    "o": "esp-2026-2/individuales/nisbeth-de-may/o/img_5432.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/nisbeth-de-may/t/img_5437.webp",
+                    "p": "esp-2026-2/individuales/nisbeth-de-may/p/img_5437.webp",
+                    "o": "esp-2026-2/individuales/nisbeth-de-may/o/img_5437.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/nisbeth-de-may/t/img_5472.webp",
+                    "p": "esp-2026-2/individuales/nisbeth-de-may/p/img_5472.webp",
+                    "o": "esp-2026-2/individuales/nisbeth-de-may/o/img_5472.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Oriany de Tun",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/oriany-de-tun/t/img_5442.webp",
+                    "p": "esp-2026-2/individuales/oriany-de-tun/p/img_5442.webp",
+                    "o": "esp-2026-2/individuales/oriany-de-tun/o/img_5442.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/oriany-de-tun/t/img_5484.webp",
+                    "p": "esp-2026-2/individuales/oriany-de-tun/p/img_5484.webp",
+                    "o": "esp-2026-2/individuales/oriany-de-tun/o/img_5484.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Patricia Gómez",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/patricia-gomez/t/img_5450.webp",
+                    "p": "esp-2026-2/individuales/patricia-gomez/p/img_5450.webp",
+                    "o": "esp-2026-2/individuales/patricia-gomez/o/img_5450.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/patricia-gomez/t/img_5487.webp",
+                    "p": "esp-2026-2/individuales/patricia-gomez/p/img_5487.webp",
+                    "o": "esp-2026-2/individuales/patricia-gomez/o/img_5487.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Paulina Tzab",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/paulina-tzab/t/img_5464.webp",
+                    "p": "esp-2026-2/individuales/paulina-tzab/p/img_5464.webp",
+                    "o": "esp-2026-2/individuales/paulina-tzab/o/img_5464.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/paulina-tzab/t/img_5512.webp",
+                    "p": "esp-2026-2/individuales/paulina-tzab/p/img_5512.webp",
+                    "o": "esp-2026-2/individuales/paulina-tzab/o/img_5512.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Rosaura Hau",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/rosaura-hau/t/img_5446.webp",
+                    "p": "esp-2026-2/individuales/rosaura-hau/p/img_5446.webp",
+                    "o": "esp-2026-2/individuales/rosaura-hau/o/img_5446.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/rosaura-hau/t/img_5480.webp",
+                    "p": "esp-2026-2/individuales/rosaura-hau/p/img_5480.webp",
+                    "o": "esp-2026-2/individuales/rosaura-hau/o/img_5480.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Vida y Axel",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/vida-y-axel/t/img_5470.webp",
+                    "p": "esp-2026-2/individuales/vida-y-axel/p/img_5470.webp",
+                    "o": "esp-2026-2/individuales/vida-y-axel/o/img_5470.jpg",
+                    "w": 1800,
+                    "h": 1286
+                },
+                {
+                    "t": "esp-2026-2/individuales/vida-y-axel/t/img_5528.webp",
+                    "p": "esp-2026-2/individuales/vida-y-axel/p/img_5528.webp",
+                    "o": "esp-2026-2/individuales/vida-y-axel/o/img_5528.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        },
+        {
+            "nombre": "Virginia Chan",
+            "fotos": [
+                {
+                    "t": "esp-2026-2/individuales/virginia-chan/t/img_5434.webp",
+                    "p": "esp-2026-2/individuales/virginia-chan/p/img_5434.webp",
+                    "o": "esp-2026-2/individuales/virginia-chan/o/img_5434.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/virginia-chan/t/img_5473.webp",
+                    "p": "esp-2026-2/individuales/virginia-chan/p/img_5473.webp",
+                    "o": "esp-2026-2/individuales/virginia-chan/o/img_5473.jpg",
+                    "w": 1800,
+                    "h": 1350
+                },
+                {
+                    "t": "esp-2026-2/individuales/nisbeth-de-may/t/img_5432.webp",
+                    "p": "esp-2026-2/individuales/nisbeth-de-may/p/img_5432.webp",
+                    "o": "esp-2026-2/individuales/nisbeth-de-may/o/img_5432.jpg",
+                    "w": 1800,
+                    "h": 1350
+                }
+            ]
+        }
+    ]
+}

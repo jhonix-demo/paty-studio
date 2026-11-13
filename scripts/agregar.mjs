@@ -1,15 +1,15 @@
 // Procesa y sube UNA foto, y te imprime el JSON para pegar en src/data/fotos.json
-// Uso:  node --env-file=.env scripts/agregar.mjs <foto> grupales
-//       node --env-file=.env scripts/agregar.mjs <foto> "Uriel y Diana"
+// Uso:  node --env-file=.env scripts/agregar.mjs <evento> <foto> grupales
+//       node --env-file=.env scripts/agregar.mjs <evento> <foto> "Uriel y Diana"
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 
-const [file, destino] = process.argv.slice(2);
+const [EVENTO, file, destino] = process.argv.slice(2);
 const E = process.env;
-if (!file || !destino || !E.R2_BUCKET) {
-  console.error('Uso: node --env-file=.env scripts/agregar.mjs <foto> <grupales | "Nombre">\nRevisa también que .env tenga las credenciales de R2.');
+if (!EVENTO || !file || !destino || !E.R2_BUCKET) {
+  console.error('Uso: node --env-file=.env scripts/agregar.mjs <evento> <foto> <grupales | "Nombre">\nRevisa también que .env tenga las credenciales de R2.');
   process.exit(1);
 }
 
@@ -25,7 +25,6 @@ const put = (Key, Body, ContentType, extra = {}) =>
 
 const esGrupal = destino.toLowerCase() === 'grupales';
 const grupo = esGrupal ? 'grupales' : `individuales/${slug(destino)}`;
-const EVENTO = E.EVENTO_SLUG || 'evento';
 const nombreArchivo = path.basename(file);
 const base = slug(path.parse(file).name);
 const ext = path.extname(file).slice(1).toLowerCase();
@@ -46,7 +45,7 @@ const f = { t: k('t', 'webp'), p: k('p', 'webp'), o, w: p.info.width, h: p.info.
 console.log(`\n✔ Subida: ${nombreArchivo} → ${grupo}\n`);
 
 if (esGrupal) {
-  console.log('Pega esto al FINAL de la lista "grupales" en src/data/fotos.json (con una coma antes):\n');
+  console.log(`Pega esto al FINAL de la lista "grupales" en src/data/fotos/${EVENTO}.json (con una coma antes):\n`);
   console.log(JSON.stringify(f));
 } else {
   console.log(`Si "${destino}" YA existe en "personas": pega esto al final de su lista "fotos" (con una coma antes):\n`);

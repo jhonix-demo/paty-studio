@@ -1,13 +1,15 @@
-// Uso: npm run procesar [carpeta]   (por defecto ./fotos-originales)
+// Uso: npm run procesar -- <slug-del-evento> [carpeta]
+// Ej.: npm run procesar -- esp-2026-2   (lee ./fotos-originales/esp-2026-2)
 // Estructura: grupales/*.jpg  e  individuales/<Nombre o "Uriel y Diana">/*.jpg
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 
-const SRC = process.argv[2] || 'fotos-originales';
+const [EVENTO, carpeta] = process.argv.slice(2);
+if (!EVENTO) { console.error('Uso: npm run procesar -- <slug-del-evento> [carpeta]'); process.exit(1); }
+const SRC = carpeta || `fotos-originales/${EVENTO}`;
 const E = process.env;
-const EVENTO = E.EVENTO_SLUG || 'evento';
 const OK = /\.(jpe?g|png)$/i;
 const s3 = E.R2_BUCKET && new S3Client({
   region: 'auto',
@@ -57,5 +59,6 @@ for (const d of (await fs.readdir(indDir, { withFileTypes: true }).catch(() => [
 }
 personas.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
 
-await fs.writeFile('src/data/fotos.json', JSON.stringify({ base: E.R2_PUBLIC_URL || '', grupales, personas }));
-console.log(`\nListo: ${grupales.length} grupales, ${personas.length} personas. Haz commit de src/data/fotos.json.`);
+await fs.mkdir('src/data/fotos', { recursive: true });
+await fs.writeFile(`src/data/fotos/${EVENTO}.json`, JSON.stringify({ base: E.R2_PUBLIC_URL || '', grupales, personas }));
+console.log(`\nListo: ${grupales.length} grupales, ${personas.length} personas. Haz commit de src/data/fotos/${EVENTO}.json.`);
