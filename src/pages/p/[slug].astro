@@ -58,7 +58,7 @@ const u = (k) => `${base}/${k}`;
     <div class="bar">
       <span class="cnt"></span>
       <span>
-        <a class="dl btn" download>Descargar original</a>
+        <a class="dl btn">Descargar original</a>
         <button type="button" class="btn x">Cerrar</button>
       </span>
     </div>
@@ -67,7 +67,7 @@ const u = (k) => `${base}/${k}`;
     <button type="button" class="nav next" aria-label="Siguiente">›</button>
   </dialog>
 
-  <script define:vars={{ base, grupales, personas }}>
+  <script define:vars={{ base, grupales, personas, alias: evento.slug.toUpperCase() }}>
     const u = (k) => `${base}/${k}`;
     const dlg = document.getElementById('lb');
     const img = dlg.querySelector('img');
@@ -80,6 +80,23 @@ const u = (k) => `${base}/${k}`;
     dlg.querySelector('.prev').onclick = () => step(-1);
     dlg.querySelector('.next').onclick = () => step(1);
     dlg.querySelector('.x').onclick = () => dlg.close();
+    // Descarga con nombre limpio (ej. ESP-2026-1_03.jpg). Requiere CORS en el bucket;
+    // si falla, cae a la descarga directa con el nombre original.
+    dl.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const f = L[i], n = i + 1, ext = f.o.split('.').pop().toLowerCase();
+      const nombre = `${alias}_${String(n).padStart(2, '0')}.${ext}`;
+      const txt = dl.textContent;
+      dl.textContent = 'Descargando…'; dl.style.pointerEvents = 'none';
+      try {
+        const r = await fetch(u(f.o));
+        if (!r.ok) throw new Error('http ' + r.status);
+        const url = URL.createObjectURL(await r.blob());
+        const a = document.createElement('a'); a.href = url; a.download = nombre; a.click();
+        setTimeout(() => URL.revokeObjectURL(url), 10000);
+      } catch (err) { location.href = u(f.o); }
+      dl.textContent = txt; dl.style.pointerEvents = '';
+    });
     dlg.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') step(-1); if (e.key === 'ArrowRight') step(1); });
     dlg.addEventListener('close', () => { img.removeAttribute('src'); });
 
