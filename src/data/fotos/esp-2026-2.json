@@ -2,6 +2,13 @@
     "base": "https://pub-adaba2aed4c74cf9820f559edc78268e.r2.dev",
     "grupales": [
         {
+            "t": "esp-2026-2/grupales/t/12x8.webp",
+            "p": "esp-2026-2/grupales/p/12x8.webp",
+            "o": "esp-2026-2/grupales/o/12x8.jpg",
+            "w": 1800,
+            "h": 1200
+        },
+        {
             "t": "esp-2026-2/grupales/t/a-normal.webp",
             "p": "esp-2026-2/grupales/p/a-normal.webp",
             "o": "esp-2026-2/grupales/o/a-normal.jpg",
